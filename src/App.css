@@ -1,9 +1,89 @@
 .App {
   text-align: center;
 }
+.logoko {
+  text-align: left;
+  height: 12.7vh;
+  background: #282c34;
+  color: white;
+  text-decoration: none;
+}
 
+.logoko2:hover {
+  color: white;
+  text-decoration: line-through;
+}
+.logoko2:active {
+  color: white;
+  text-decoration: none;
+}
+.logoko3:hover {
+  color: white;
+text-decoration: line-through;
+}
+.logoko3:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+.social-container {
+  background: #282c34;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #fa5d4e;
+}
+
+a.youtube:hover {
+  color: #fb2511;
+}
+
+a.facebook {
+  color: #4a89bd;
+}
+
+a.tiktok {
+  color: #ffffff;
+}
+
+a.tiktok:hover {
+  color: #8d5dff;
+}
+
+a.twitter {
+  color: #7dc0f6;
+}
+
+a.instagram {
+  color: rgb(255, 255, 255);
+}
+a.instagram:hover {
+  color: rgb(219, 118, 2);
+}
+
+.About-Height{
+  min-height: 45vmin;
+}
+.wew{
+  margin-top: 25vh;
+}
+.contactss{
+  color: #ff1500;
+}
+h3 {
+  color: #ffffff;
+}
 .App-logo {
-  height: 40vmin;
+  height: 18vh;
   pointer-events: none;
 }
 
@@ -25,7 +105,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
