@@ -2,10 +2,9 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import SocialFollow from './SocialFollow'
-import AboutPage from './AboutPage'
-import HomePage from './HomePage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
+import AnimatedText from 'react-animated-text-content';
 
 function App() {
   return (
@@ -36,7 +35,50 @@ function Home() {
   return (
     <>
       <main>
-      <HomePage/>
+      <div class="About-Height">
+    <h1 class="wew">
+      <AnimatedText
+        type="chars" // animate words or chars
+        animation={{
+          x: '200px',
+          y: '-20px',
+          scale: 1.1,
+          ease: 'ease-in-out',
+        }}
+        animationType="diagonal"
+        interval={0.2}
+        duration={2.5}
+        tag="p"
+        className="animated-paragraph"
+        includeWhiteSpaces
+        threshold={0.1}
+        rootMargin="20%"
+      >
+        I ❣ REACT JS 🍻
+      </AnimatedText>
+    </h1>
+    <h1 class="wew">
+      <AnimatedText
+        type="chars" // animate words or chars
+        animation={{
+          x: '200px',
+          y: '-20px',
+          scale: 1.1,
+          ease: 'ease-in-out',
+        }}
+        animationType="diagonal"
+        interval={0.2}
+        duration={2.5}
+        tag="p"
+        className="animated-paragraph"
+        includeWhiteSpaces
+        threshold={0.1}
+        rootMargin="20%"
+      >
+        THIS HOME PAGE
+      </AnimatedText>
+    </h1>
+  </div>
       </main>
     </>
   );
@@ -46,7 +88,30 @@ function About() {
   return (
     <>
       <main>
-      <AboutPage/>
+      <div class="About-Height">
+    
+    <h1 class="wew">
+      <AnimatedText
+        type="chars" // animate words or chars
+        animation={{
+          x: '200px',
+          y: '-20px',
+          scale: 1.1,
+          ease: 'ease-in-out',
+        }}
+        animationType="diagonal"
+        interval={0.2}
+        duration={2.5}
+        tag="p"
+        className="animated-paragraph"
+        includeWhiteSpaces
+        threshold={0.1}
+        rootMargin="20%"
+      >
+        This is About Page 🍻
+      </AnimatedText>
+    </h1>
+  </div>
       </main>
       
     </>
