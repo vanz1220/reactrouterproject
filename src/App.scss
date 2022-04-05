@@ -1,0 +1,126 @@
+$app-text-align: center;
+$logoko-text-align: left;
+$logoko-height: 12.7vh;
+$logoko-background: #282c34;
+$logoko-color: white;
+$logoko-text-decoration: none;
+
+.App {
+    text-align: $app-text-align;
+}
+
+.logoko {
+    text-align: $logoko-text-align;
+    height: $logoko-height;
+    background: $logoko-background;
+    color: $logoko-color;
+    text-decoration: $logoko-text-decoration;
+  }
+  
+  .logoko2:hover {
+    color: $logoko-color;
+    text-decoration: line-through;
+  }
+  .logoko2:active {
+    color: $logoko-color;
+    text-decoration: $logoko-text-decoration;
+  }
+  .logoko3:hover {
+    color: $logoko-color;
+  text-decoration: line-through;
+  }
+  .logoko3:active {
+    color: $logoko-color;
+    text-decoration: $logoko-text-decoration;
+  }
+  
+  
+  .social-container {
+    background: $logoko-background;
+    padding: 25px 50px;
+    color: $logoko-color;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #fa5d4e;
+  }
+  
+  a.youtube:hover {
+    color: #fb2511;
+  }
+  
+  a.facebook {
+    color: #4a89bd;
+  }
+  
+  a.tiktok {
+    color: $logoko-color;
+  }
+  
+  a.tiktok:hover {
+    color: #8d5dff;
+  }
+  
+  a.twitter {
+    color: #7dc0f6;
+  }
+  
+  a.instagram {
+    color: $logoko-color;
+  }
+  a.instagram:hover {
+    color: rgb(219, 118, 2);
+  }
+  
+  .About-Height{
+    min-height: 45vmin;
+  }
+  .wew{
+    margin-top: 25vh;
+  }
+  .contactss{
+    color: #ff1500;
+  }
+  
+  .App-logo {
+    height: 18vh;
+    pointer-events: $logoko-text-decoration;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: $logoko-background;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $logoko-color;
+  }
+  
+  .App-link {
+    color: $logoko-color;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

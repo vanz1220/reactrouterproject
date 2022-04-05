@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .logoko {
   text-align: left;
   height: 12.7vh;
@@ -13,33 +14,42 @@
   color: white;
   text-decoration: line-through;
 }
+
 .logoko2:active {
   color: white;
   text-decoration: none;
 }
+
 .logoko3:hover {
   color: white;
-text-decoration: line-through;
+  text-decoration: line-through;
 }
+
 .logoko3:active {
   color: white;
   text-decoration: none;
 }
-
 
 .social-container {
   background: #282c34;
   padding: 25px 50px;
   color: white;
 }
+
 a.social {
   margin: 0 1rem;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
   transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
   display: inline-block;
 }
+
 a.social:hover {
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
+
 a.youtube {
   color: #fa5d4e;
 }
@@ -53,7 +63,7 @@ a.facebook {
 }
 
 a.tiktok {
-  color: #ffffff;
+  color: white;
 }
 
 a.tiktok:hover {
@@ -65,19 +75,22 @@ a.twitter {
 }
 
 a.instagram {
-  color: rgb(255, 255, 255);
-}
-a.instagram:hover {
-  color: rgb(219, 118, 2);
+  color: white;
 }
 
-.About-Height{
+a.instagram:hover {
+  color: #db7602;
+}
+
+.About-Height {
   min-height: 45vmin;
 }
-.wew{
+
+.wew {
   margin-top: 25vh;
 }
-.contactss{
+
+.contactss {
   color: #ff1500;
 }
 
@@ -88,30 +101,54 @@ a.instagram:hover {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #ffffff;
+  color: white;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
+/*# sourceMappingURL=App.css.map */
