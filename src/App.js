@@ -19,9 +19,9 @@ function App() {
             className="d-inline-block align-middle"
             />
             OWSHII&nbsp;&nbsp;✌😉&nbsp;&nbsp;&nbsp;&nbsp;
-          <Link className="logoko2" href="/">Home</Link>
+          <Link className="logoko2" to="/">Home</Link>
           &nbsp;&nbsp;
-          <Link className="logoko2" href="/about">About</Link>
+          <Link className="logoko2" to="/about">About</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
