@@ -36,7 +36,7 @@
   color: white;
 }
 
-a.social {
+.social-container a.social {
   margin: 0 1rem;
   -webkit-transition: -webkit-transform 250ms;
   transition: -webkit-transform 250ms;
@@ -45,40 +45,40 @@ a.social {
   display: inline-block;
 }
 
-a.social:hover {
+.social-container a.social:hover {
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 
-a.youtube {
+.social-container a.youtube {
   color: #fa5d4e;
 }
 
-a.youtube:hover {
+.social-container a.youtube:hover {
   color: #fb2511;
 }
 
-a.facebook {
+.social-container a.facebook {
   color: #4a89bd;
 }
 
-a.tiktok {
+.social-container a.tiktok {
   color: white;
 }
 
-a.tiktok:hover {
+.social-container a.tiktok:hover {
   color: #8d5dff;
 }
 
-a.twitter {
+.social-container a.twitter {
   color: #7dc0f6;
 }
 
-a.instagram {
+.social-container a.instagram {
   color: white;
 }
 
-a.instagram:hover {
+.social-container a.instagram:hover {
   color: #db7602;
 }
 

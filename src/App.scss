@@ -34,46 +34,43 @@ $logoko2-text-decoration: line-through;
     color: $logoko-color;
     text-decoration: $logoko-text-decoration;
   }
-  
-  
+    
   .social-container {
     background: $logoko-background;
     padding: 25px 50px;
     color: $logoko-color;
-    a{
-      .social {
+      a.social {
         margin: 0 1rem;
         transition: transform 250ms;
         display: inline-block;
       }
-      .social:hover {
+      a.social:hover {
         transform: translateY(-2px);
       }
-      .youtube {
+      a.youtube {
         color: #fa5d4e;
       }
-      .youtube:hover {
+      a.youtube:hover {
         color: #fb2511;
       }
-      .facebook {
+      a.facebook {
         color: #4a89bd;
       }
-      .tiktok {
+      a.tiktok {
         color: $logoko-color;
       }
-      .tiktok:hover {
+      a.tiktok:hover {
         color: #8d5dff;
       }
-      .twitter {
+      a.twitter {
         color: #7dc0f6;
       }
-      .instagram {
+      a.instagram {
         color: $logoko-color;
       }
-      .instagram:hover {
+      a.instagram:hover {
         color: rgb(219, 118, 2);
       }
-    }
   }
   
   
