@@ -40,45 +40,42 @@ $logoko2-text-decoration: line-through;
     background: $logoko-background;
     padding: 25px 50px;
     color: $logoko-color;
-  }
-  a.social {
-    margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
-  }
-  a.social:hover {
-    transform: translateY(-2px);
-  }
-  a.youtube {
-    color: #fa5d4e;
+    a{
+      .social {
+        margin: 0 1rem;
+        transition: transform 250ms;
+        display: inline-block;
+      }
+      .social:hover {
+        transform: translateY(-2px);
+      }
+      .youtube {
+        color: #fa5d4e;
+      }
+      .youtube:hover {
+        color: #fb2511;
+      }
+      .facebook {
+        color: #4a89bd;
+      }
+      .tiktok {
+        color: $logoko-color;
+      }
+      .tiktok:hover {
+        color: #8d5dff;
+      }
+      .twitter {
+        color: #7dc0f6;
+      }
+      .instagram {
+        color: $logoko-color;
+      }
+      .instagram:hover {
+        color: rgb(219, 118, 2);
+      }
+    }
   }
   
-  a.youtube:hover {
-    color: #fb2511;
-  }
-  
-  a.facebook {
-    color: #4a89bd;
-  }
-  
-  a.tiktok {
-    color: $logoko-color;
-  }
-  
-  a.tiktok:hover {
-    color: #8d5dff;
-  }
-  
-  a.twitter {
-    color: #7dc0f6;
-  }
-  
-  a.instagram {
-    color: $logoko-color;
-  }
-  a.instagram:hover {
-    color: rgb(219, 118, 2);
-  }
   
   .About-Height{
     min-height: 45vmin;
