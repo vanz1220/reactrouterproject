@@ -30,6 +30,7 @@ text-decoration: line-through;
 .social-container {
   background: #282c34;
   padding: 25px 50px;
+  color: white;
 }
 a.social {
   margin: 0 1rem;
@@ -79,9 +80,7 @@ a.instagram:hover {
 .contactss{
   color: #ff1500;
 }
-h3 {
-  color: #ffffff;
-}
+
 .App-logo {
   height: 18vh;
   pointer-events: none;
