@@ -4,6 +4,7 @@ $logoko-height: 12.7vh;
 $logoko-background: #282c34;
 $logoko-color: white;
 $logoko-text-decoration: none;
+$logoko2-text-decoration: line-through;
 
 .App {
     text-align: $app-text-align;
@@ -19,7 +20,7 @@ $logoko-text-decoration: none;
   
   .logoko2:hover {
     color: $logoko-color;
-    text-decoration: line-through;
+    text-decoration: $logoko2-text-decoration;
   }
   .logoko2:active {
     color: $logoko-color;
@@ -27,7 +28,7 @@ $logoko-text-decoration: none;
   }
   .logoko3:hover {
     color: $logoko-color;
-  text-decoration: line-through;
+    text-decoration: $logoko2-text-decoration;
   }
   .logoko3:active {
     color: $logoko-color;
